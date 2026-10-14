@@ -1,0 +1,598 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#141313">
+  <meta name="color-scheme" content="dark">
+  <title>Proposta comercial · Minotauro Champion by Design</title>
+  <meta name="description" content="Formação de líderes de alta performance, em 6 ou 8 meses, com Rodrigo Minotauro e Quitéria.">
+  <link rel="icon" href="/marca/simbolo-ouro.svg" type="image/svg+xml">
+  <link rel="preload" as="image" href="/img/fotos/hero-cinturoes.webp" media="(min-aspect-ratio: 7/10)">
+  <link rel="preload" as="image" href="/img/fotos/hero-cinturoes-m.webp" media="(max-aspect-ratio: 7/10)">
+  <script type="module" src="/src/main.js"></script>
+</head>
+<body class="carregando">
+  <a class="pular" href="#capa">Pular para o conteúdo</a>
+
+  <!-- abertura: o símbolo se desenha enquanto as fotos carregam -->
+  <div class="abertura" aria-hidden="true">
+    <img class="abertura__simbolo" src="/marca/simbolo-ouro.svg" alt="">
+    <div class="abertura__barra"><span></span></div>
+    <div class="abertura__num"><span data-abertura-num>00</span></div>
+  </div>
+
+  <div class="grao" aria-hidden="true"></div>
+  <div class="progresso" aria-hidden="true"><span></span></div>
+
+  <header class="topo">
+    <a class="topo__logo" href="#capa" aria-label="Minotauro Champion by Design, voltar ao início">
+      <img src="/marca/logotipo-off.svg" alt="" width="180" height="35">
+    </a>
+    <div class="topo__secao" aria-hidden="true">
+      <span class="topo__num" data-secao-num>01</span><span class="topo__total">/ 10</span>
+      <span class="topo__nome" data-secao-nome>Capa</span>
+    </div>
+    <button class="topo__menu" type="button" aria-expanded="false" aria-controls="indice" data-menu>
+      <span class="topo__menu-txt">Índice</span><span class="topo__menu-ico" aria-hidden="true"><i></i><i></i></span>
+    </button>
+  </header>
+
+  <!-- índice: trilho lateral no desktop, tela cheia no mobile -->
+  <nav class="indice" id="indice" aria-label="Seções da proposta">
+    <ol>
+      <li><a href="#capa"><b>01</b><span>Capa</span></a></li>
+      <li><a href="#historia"><b>02</b><span>A história</span></a></li>
+      <li><a href="#quiteria"><b>03</b><span>Quem conduz com ele</span></a></li>
+      <li><a href="#manifesto"><b>04</b><span>Manifesto</span></a></li>
+      <li><a href="#luta"><b>05</b><span>A sua luta</span></a></li>
+      <li><a href="#octogono"><b>06</b><span>O método</span></a></li>
+      <li><a href="#como-funciona"><b>07</b><span>Como funciona</span></a></li>
+      <li><a href="#plataforma"><b>08</b><span>Plataforma e evidência</span></a></li>
+      <li><a href="#investimento"><b>09</b><span>Formatos e investimento</span></a></li>
+      <li><a href="#proximo-passo"><b>10</b><span>Próximo passo</span></a></li>
+    </ol>
+  </nav>
+
+  <main>
+
+    <!-- ═══ 01 · CAPA ═══════════════════════════════════════════════════════ -->
+    <section class="secao capa" id="capa" data-nome="Capa" aria-labelledby="capa-titulo">
+      <div class="capa__foto" data-capa-foto>
+        <picture>
+          <source media="(max-aspect-ratio: 7/10)" srcset="/img/fotos/hero-cinturoes-m.webp">
+          <img src="/img/fotos/hero-cinturoes.webp" width="2560" height="1663" alt="Rodrigo Minotauro com os cinturões erguidos" fetchpriority="high">
+        </picture>
+      </div>
+      <svg class="capa__octo" viewBox="-100 -100 200 200" aria-hidden="true">
+        <polygon class="o1" points="38.3,-92.4 92.4,-38.3 92.4,38.3 38.3,92.4 -38.3,92.4 -92.4,38.3 -92.4,-38.3 -38.3,-92.4" />
+        <polygon class="o2" points="27.6,-66.5 66.5,-27.6 66.5,27.6 27.6,66.5 -27.6,66.5 -66.5,27.6 -66.5,-27.6 -27.6,-66.5" />
+      </svg>
+      <div class="ano" aria-hidden="true">20<br>26</div>
+
+      <div class="capa__conteudo">
+        <p class="rotulo" data-capa-item>Proposta comercial</p>
+        <h1 id="capa-titulo" class="capa__titulo">
+          <span class="linha"><span>Alta performance</span></span>
+          <span class="linha ouro"><span>exige metodologia.</span></span>
+        </h1>
+        <p class="capa__sub" data-capa-item>Formação de líderes de alta performance, em 6 ou 8 meses, com Rodrigo Minotauro e Quitéria.</p>
+      </div>
+
+      <div class="capa__rodape" data-capa-item>
+        <span class="capa__empresa">Preparada para <b data-empresa>a sua empresa</b></span>
+        <span>Outubro de 2026</span>
+      </div>
+      <a class="rolar" href="#historia" data-capa-item><span>Role para começar</span><i aria-hidden="true"></i></a>
+    </section>
+
+    <!-- ═══ 02 · A HISTÓRIA ════════════════════════════════════════════════ -->
+    <section class="secao historia cena" id="historia" data-nome="A história" data-passos="3" aria-label="A história">
+      <div class="palco">
+        <div class="historia__fundo" aria-hidden="true"></div>
+        <figure class="historia__foto" data-luz>
+          <picture>
+            <source media="(max-width: 47.99rem)" srcset="/img/fotos/rodrigo-palco-m.webp">
+            <img src="/img/fotos/rodrigo-palco.webp" width="1420" height="1800" alt="Rodrigo Minotauro no palco, durante palestra" loading="lazy">
+          </picture>
+        </figure>
+        <div class="ano" aria-hidden="true">20<br>26</div>
+
+        <div class="historia__passos">
+          <article class="passo" data-passo="0">
+            <img class="faixa" src="/marca/icone-faixa-ouro.svg" alt="">
+            <p class="rotulo">A história</p>
+            <h2 class="titulo-m">Você conhece as conquistas.<br>Agora pode aprender com quem as construiu.</h2>
+            <p class="texto">Uma vez perguntaram ao Rodrigo se, em algum momento da carreira, ele pensou em desistir. A resposta foi simples:</p>
+          </article>
+
+          <article class="passo" data-passo="1">
+            <p class="nunca" aria-label="Nunca."><span>“</span>Nunca.<span>”</span></p>
+            <p class="texto">Isso não significa que o caminho tenha sido fácil. Significa que, diante da pressão, das derrotas e dos momentos em que precisou se reconstruir, ele aprendeu a encontrar uma forma de continuar. Foi assim que construiu, além de uma carreira vencedora, <strong>uma maneira de pensar.</strong></p>
+          </article>
+
+          <article class="passo" data-passo="2">
+            <p class="rotulo">Acesso</p>
+            <h2 class="titulo-l">Você terá <span class="ouro">acesso.</span></h2>
+            <p class="texto">Quatro vezes campeão mundial, Minotauro enfrentou lesões, cirurgias e momentos em que a derrota parecia certa. Ainda assim, voltou a competir e sustentou uma carreira no topo.</p>
+            <p class="texto">É a essa mentalidade que você terá acesso: ao jeito como ele pensa, se prepara, reage à pressão e encontra clareza para decidir nos momentos mais difíceis.</p>
+            <blockquote class="citacao">
+              <p>“Enquanto tiver luz, a gente tá lutando.”</p>
+              <footer>Rodrigo Minotauro</footer>
+            </blockquote>
+          </article>
+        </div>
+
+        <ol class="marcador" aria-hidden="true"><li></li><li></li><li></li></ol>
+      </div>
+    </section>
+
+    <!-- ═══ 03 · QUITÉRIA ══════════════════════════════════════════════════ -->
+    <section class="secao quiteria" id="quiteria" data-nome="Quem conduz com ele" aria-labelledby="quiteria-titulo">
+      <div class="quiteria__foto" data-parallax="-12">
+        <picture>
+          <source media="(max-width: 47.99rem)" srcset="/img/fotos/quiteria-m.webp">
+          <img src="/img/fotos/quiteria.webp" width="1665" height="1800" alt="Quitéria, retrato sentada em fundo escuro" loading="lazy">
+        </picture>
+      </div>
+      <div class="ano" aria-hidden="true">20<br>26</div>
+
+      <div class="quiteria__texto">
+        <img class="faixa" src="/marca/icone-faixa-ouro.svg" alt="" data-revelar>
+        <p class="rotulo" data-revelar>Quem conduz com ele</p>
+        <h2 id="quiteria-titulo" class="titulo-m" data-dividir>O tatame dá a mentalidade. <span class="ouro">O boardroom dá a tradução.</span></h2>
+        <p class="texto" data-revelar>Quitéria soma à experiência do Rodrigo mais de 20 anos como executiva de RH. Apoiou a expansão de uma empresa em cinco anos, formando as equipes que sustentaram o crescimento.</p>
+
+        <div class="trajetoria" data-trajetoria>
+          <p class="trajetoria__legenda">A expansão que ela apoiou, em cinco anos</p>
+          <div class="metrica" data-de="300" data-para="650" data-prefixo="R$ " data-sufixo=" mi">
+            <div class="metrica__topo"><span class="metrica__nome">Faturamento</span><span class="metrica__mult">×2,2</span></div>
+            <div class="metrica__valores"><span class="metrica__de">R$ 300 mi</span><i aria-hidden="true">→</i><b class="metrica__para" data-contador>R$ 650 mi</b></div>
+            <div class="metrica__barra" aria-hidden="true"><span class="base"></span><span class="cresce"></span></div>
+          </div>
+          <div class="metrica" data-de="70" data-para="300" data-sufixo="">
+            <div class="metrica__topo"><span class="metrica__nome">Pessoas</span><span class="metrica__mult">×4,3</span></div>
+            <div class="metrica__valores"><span class="metrica__de">70</span><i aria-hidden="true">→</i><b class="metrica__para" data-contador>300</b></div>
+            <div class="metrica__barra" aria-hidden="true"><span class="base"></span><span class="cresce"></span></div>
+          </div>
+          <div class="metrica" data-de="20" data-para="80" data-prefixo="R$ " data-sufixo=" bi">
+            <div class="metrica__topo"><span class="metrica__nome">Ativos sob gestão</span><span class="metrica__mult">×4</span></div>
+            <div class="metrica__valores"><span class="metrica__de">R$ 20 bi</span><i aria-hidden="true">→</i><b class="metrica__para" data-contador>R$ 80 bi</b></div>
+            <div class="metrica__barra" aria-hidden="true"><span class="base"></span><span class="cresce"></span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ 04 · MANIFESTO ═════════════════════════════════════════════════ -->
+    <section class="secao manifesto cena" id="manifesto" data-nome="Manifesto" data-passos="2" aria-label="Manifesto">
+      <div class="palco">
+        <figure class="manifesto__foto">
+          <picture>
+            <source media="(max-width: 47.99rem)" srcset="/img/fotos/fundadores-m.webp">
+            <img src="/img/fotos/fundadores.webp" width="1803" height="1800" alt="Rodrigo Minotauro e Quitéria, retrato de estúdio" loading="lazy">
+          </picture>
+        </figure>
+        <div class="ano" aria-hidden="true">20<br>26</div>
+
+        <div class="manifesto__a">
+          <img class="faixa" src="/marca/icone-faixa-ouro.svg" alt="">
+          <p class="rotulo">Manifesto</p>
+          <h2 class="titulo-l">Juntos, transformamos essa <span class="ouro">vivência em método.</span></h2>
+          <p class="texto">A Minotauro Champion by Design nasce do encontro entre duas experiências complementares: a de um campeão mundial que construiu sua trajetória em alta performance e a de uma executiva que viveu por décadas os desafios de desenvolver pessoas, transformar organizações e gerar resultados.</p>
+          <p class="texto">Ao lado deles, especialistas convidados por tema e conteúdos desenvolvidos com a SBIE.</p>
+        </div>
+
+        <div class="manifesto__b">
+          <p class="rotulo">O que acreditamos</p>
+          <p class="manifesto__frase" data-palavras>Somos exigentes porque acreditamos no potencial das pessoas, não porque acreditamos que pressão, sozinha, gera resultado. Alta performance não acontece em picos. Ela é construída no tempo, com a consciência de estar na direção certa.</p>
+          <ul class="pilulas">
+            <li class="pilula">Somos firmes e humanos.</li>
+            <li class="pilula">Somos próximos.</li>
+            <li class="pilula">Somos constantes com propósito.</li>
+            <li class="pilula pilula--ouro">Não vendemos atalhos. Entregamos estrutura.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ 05 · A SUA LUTA ════════════════════════════════════════════════ -->
+    <section class="secao luta" id="luta" data-nome="A sua luta" aria-labelledby="luta-titulo">
+      <img class="luta__marca" src="/marca/icone-faixa-ouro.svg" alt="" aria-hidden="true" data-parallax="20">
+      <div class="ano" aria-hidden="true">20<br>26</div>
+      <div class="envelope">
+        <header class="luta__cab">
+          <p class="rotulo" data-revelar>A sua luta</p>
+          <h2 id="luta-titulo" class="titulo-l" data-dividir>A gente sabe os desafios que fazem parte do seu dia.</h2>
+          <p class="dica" data-revelar><span aria-hidden="true">↻</span> Toque em cada desafio para ver como ele vira prática no programa.</p>
+        </header>
+
+        <ul class="desafios">
+          <li>
+            <button class="desafio" type="button" aria-pressed="false">
+              <span class="desafio__frente">
+                <span class="desafio__num">01</span>
+                <span class="desafio__titulo">Uma conversa difícil que vem sendo adiada.</span>
+                <span class="desafio__virar" aria-hidden="true">Ver na prática <i>→</i></span>
+              </span>
+              <span class="desafio__verso">
+                <span class="desafio__num">No programa</span>
+                <span class="desafio__resp">Você ensaia a conversa crítica antes de tê-la, com devolutiva, no simulador de conversas críticas.</span>
+              </span>
+            </button>
+          </li>
+          <li>
+            <button class="desafio" type="button" aria-pressed="false">
+              <span class="desafio__frente">
+                <span class="desafio__num">02</span>
+                <span class="desafio__titulo">Uma meta importante que não sai do lugar.</span>
+                <span class="desafio__virar" aria-hidden="true">Ver na prática <i>→</i></span>
+              </span>
+              <span class="desafio__verso">
+                <span class="desafio__num">No programa</span>
+                <span class="desafio__resp">KPI único, baseline real de sistema e uma intervenção 80/20. Em 30 dias, a primeira evidência.</span>
+              </span>
+            </button>
+          </li>
+          <li>
+            <button class="desafio" type="button" aria-pressed="false">
+              <span class="desafio__frente">
+                <span class="desafio__num">03</span>
+                <span class="desafio__titulo">Uma pessoa do time que precisa evoluir, e o caminho para conduzi-la ainda não está claro.</span>
+                <span class="desafio__virar" aria-hidden="true">Ver na prática <i>→</i></span>
+              </span>
+              <span class="desafio__verso">
+                <span class="desafio__num">No programa</span>
+                <span class="desafio__resp">Time mapeado, cada um com PDI. 1:1 e feedbacks preparados com assistentes construídos para a sua rotina.</span>
+              </span>
+            </button>
+          </li>
+        </ul>
+
+        <p class="luta__fecho" data-revelar>São justamente esses momentos que colocam a sua liderança à prova. No programa, <strong>eles viram prática.</strong></p>
+      </div>
+    </section>
+
+    <!-- ═══ 06 · O OCTÓGONO ════════════════════════════════════════════════ -->
+    <section class="secao octogono cena" id="octogono" data-nome="O método" data-passos="11" aria-label="O método: Octógono da Liderança">
+      <div class="palco">
+        <canvas class="octogono__canvas" aria-hidden="true"></canvas>
+        <div class="octogono__rotulos" aria-hidden="true"></div>
+        <div class="octogono__vinheta" aria-hidden="true"></div>
+
+        <!-- fallback (sem WebGL ou com movimento reduzido): o diagrama plano da v4 -->
+        <svg class="octogono__plano" viewBox="0 0 1000 1000" role="img" aria-label="Os oito Rounds do Octógono da Liderança em volta da Encarada">
+          <polygon points="614.8,222.8 777.2,385.2 777.2,614.8 614.8,777.2 385.2,777.2 222.8,614.8 222.8,385.2 385.2,222.8" fill="none" stroke="currentColor" stroke-width="2.5" class="ouro-traco"/>
+          <polygon points="557.4,361.4 638.6,442.6 638.6,557.4 557.4,638.6 442.6,638.6 361.4,557.4 361.4,442.6 442.6,361.4" class="miolo"/>
+          <text x="500" y="492" text-anchor="middle" class="t-kick">ROUND 0</text>
+          <text x="500" y="526" text-anchor="middle" class="t-nome">ENCARADA</text>
+          <g class="t-vert">
+            <text x="640" y="190">01 POSIÇÃO</text><text x="800" y="370">02 PREPARO</text><text x="800" y="650">03 COMBATE</text><text x="640" y="830">04 EQUIPE</text>
+            <text x="360" y="830" text-anchor="end">05 VITÓRIA</text><text x="200" y="650" text-anchor="end">06 LEGADO</text><text x="200" y="370" text-anchor="end">07 FUTURO</text><text x="360" y="190" text-anchor="end">08 CULTURA</text>
+          </g>
+        </svg>
+
+        <div class="ano" aria-hidden="true">20<br>26</div>
+
+        <div class="octogono__painel">
+          <div class="octo-intro" data-octo-intro>
+            <img class="faixa" src="/marca/icone-faixa-ouro.svg" alt="">
+            <p class="rotulo">O método</p>
+            <h2 class="titulo-l">Octógono da <span class="ouro">Liderança.</span></h2>
+            <p class="texto">A metodologia proprietária criada por Minotauro e Quitéria. Oito Rounds, cada um dedicado a uma dimensão essencial: o líder compreende seu momento, identifica o que precisa fortalecer e avança na maneira como decide, executa e conduz pessoas.</p>
+            <p class="texto"><strong>A Encarada abre a jornada.</strong> O Corner, a camada emocional, acompanha todos os Rounds.</p>
+            <p class="dica"><span aria-hidden="true">↓</span> Role para entrar no octógono, ou toque num vértice.</p>
+          </div>
+
+          <div class="octo-card" data-octo-card aria-live="polite">
+            <div class="octo-card__kick"><span data-octo-kick>Round</span> <b data-octo-num>01</b><span class="octo-card__de" data-octo-de> / 08</span></div>
+            <h3 class="octo-card__nome" data-octo-nome>Posição</h3>
+            <p class="octo-card__tema" data-octo-tema>Diagnóstico e direção</p>
+            <div class="octo-card__marco" data-octo-marco-bloco>
+              <span class="octo-card__lbl" data-octo-marco-lbl>Marco do Round</span>
+              <p data-octo-marco>KPI único e Relatório 30 Dias.</p>
+            </div>
+            <p class="octo-card__formato" data-octo-formato>Nos dois formatos</p>
+          </div>
+        </div>
+
+        <nav class="octo-nav" aria-label="Rounds do Octógono">
+          <button type="button" data-ir-passo="1" aria-label="Round 0, Encarada">0</button>
+          <button type="button" data-ir-passo="2" aria-label="Round 1, Posição">1</button>
+          <button type="button" data-ir-passo="3" aria-label="Round 2, Preparo">2</button>
+          <button type="button" data-ir-passo="4" aria-label="Round 3, Combate">3</button>
+          <button type="button" data-ir-passo="5" aria-label="Round 4, Equipe">4</button>
+          <button type="button" data-ir-passo="6" aria-label="Round 5, Vitória">5</button>
+          <button type="button" data-ir-passo="7" aria-label="Round 6, Legado">6</button>
+          <button type="button" data-ir-passo="8" aria-label="Round 7, Futuro">7</button>
+          <button type="button" data-ir-passo="9" aria-label="Round 8, Cultura">8</button>
+          <button type="button" data-ir-passo="10" aria-label="O Corner">C</button>
+        </nav>
+      </div>
+    </section>
+
+    <!-- ═══ 07 · COMO FUNCIONA ═════════════════════════════════════════════ -->
+    <section class="secao funciona" id="como-funciona" data-nome="Como funciona" aria-labelledby="funciona-titulo">
+      <div class="ano" aria-hidden="true">20<br>26</div>
+      <div class="envelope">
+        <header class="funciona__cab">
+          <div>
+            <p class="rotulo" data-revelar>Como funciona</p>
+            <h2 id="funciona-titulo" class="titulo-l" data-dividir>Um Round por mês. <span class="ouro">Ninguém avança sem entregar.</span></h2>
+          </div>
+          <div class="alternador" role="group" aria-label="Ler cada princípio no ringue ou na empresa" data-alternador data-revelar>
+            <button type="button" aria-pressed="true" data-modo="ringue">No ringue</button>
+            <button type="button" aria-pressed="false" data-modo="empresa">Na empresa</button>
+            <span class="alternador__pista" aria-hidden="true"></span>
+          </div>
+        </header>
+
+        <ul class="pares" data-pares data-modo-atual="ringue">
+          <li class="par">
+            <span class="par__n">01</span>
+            <p class="par__ringue">Ninguém troca de faixa sem provar no tatame.</p>
+            <p class="par__empresa">Cada Round tem marcos obrigatórios, com validador e prazo. O líder só avança com eles entregues, e quem não executa aparece no segundo mês, não no fim.</p>
+          </li>
+          <li class="par">
+            <span class="par__n">02</span>
+            <p class="par__ringue">Antes da luta, a pergunta: onde eu ganho?</p>
+            <p class="par__empresa">A estratégia vira ação semanal assinada pelo superior direto, e o ciclo fecha em decisão por critério, registrada em ata.</p>
+          </li>
+          <li class="par">
+            <span class="par__n">03</span>
+            <p class="par__ringue">Entre um round e outro, o corner muda a luta.</p>
+            <p class="par__empresa">O Corner trabalha pressão, frustração e provocação em todos os Rounds, com a metodologia da SBIE, sem alongar o programa.</p>
+          </li>
+          <li class="par">
+            <span class="par__n">04</span>
+            <p class="par__ringue">Treino que não vai para a luta não conta.</p>
+            <p class="par__empresa">O método se aplica sobre os OKRs reais da empresa. O líder não sai da operação para fazer estudo de caso.</p>
+          </li>
+        </ul>
+
+        <div class="medimos" data-revelar>
+          <div class="medimos__cab">
+            <p class="rotulo">Como medimos</p>
+            <h3 class="titulo-s">O que não é verificável, <span class="ouro">não é entregável.</span></h3>
+          </div>
+          <ol class="medimos__lista">
+            <li><b>Marcos com validador</b><span>Todo marco tem formato definido, quem valida e prazo.</span></li>
+            <li><b>Kirkpatrick-Phillips</b><span>A evolução medida nos quatro níveis: reação, aprendizagem, comportamento e resultado.</span></li>
+            <li><b>Assessment 360° do Octógono</b><span>O mesmo instrumento no início e no fim: baseline e evolutivo.</span></li>
+            <li><b>Relatório mensal ao RH</b><span>O investimento sustentado por dado, mês a mês, e a renovação decidida por evidência.</span></li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ 08 · PLATAFORMA E EVIDÊNCIA ════════════════════════════════════ -->
+    <section class="secao plataforma" id="plataforma" data-nome="Plataforma e evidência" aria-label="A plataforma, a Central de Inteligência e o primeiro resultado">
+      <div class="palco">
+        <div class="trilha" data-trilha>
+
+          <!-- 8a · a plataforma -->
+          <article class="painel painel--plataforma">
+            <div class="painel__texto">
+              <img class="faixa" src="/marca/icone-faixa-ouro.svg" alt="">
+              <p class="rotulo">A plataforma</p>
+              <h2 class="titulo-m">Cada Round tem a sua trilha. <span class="ouro">Cada trilha, um marco.</span></h2>
+              <p class="texto">A jornada acontece numa plataforma com a identidade do programa: as trilhas mensais com Rodrigo e Quitéria, os materiais de cada aula, os conteúdos exclusivos e a Central de Inteligência, no computador ou no celular.</p>
+              <p class="texto">O RH acompanha o progresso de cada líder pelo mesmo ambiente.</p>
+            </div>
+            <div class="painel__visual">
+              <div class="notebook">
+                <div class="notebook__tela"><img src="/img/plataforma/plataforma-home.jpg" width="1600" height="1000" alt="Página inicial da plataforma do programa, com o banner ‘Alta performance exige metodologia’ e as trilhas dos Rounds" loading="lazy"></div>
+                <div class="notebook__base" aria-hidden="true"></div>
+              </div>
+              <ul class="capas" aria-label="A jornada, como o líder a vê">
+                <li><img src="/img/capas/m0.webp" width="672" height="1016" alt="Capa da Encarada" loading="lazy"><span><b>Encarada</b>Round 0</span></li>
+                <li><img src="/img/capas/m1.webp" width="672" height="1016" alt="Capa do Round 1, Posição" loading="lazy"><span><b>Posição</b>Round 1</span></li>
+                <li><img src="/img/capas/m3.webp" width="672" height="1016" alt="Capa do Round 3, Combate" loading="lazy"><span><b>Combate</b>Round 3</span></li>
+                <li><img src="/img/capas/m6.webp" width="672" height="1016" alt="Capa de conteúdos exclusivos do Round 6, Legado" loading="lazy"><span><b>Legado</b>Round 6</span></li>
+                <li><img src="/img/capas/central.webp" width="672" height="1016" alt="Capa da Central de Inteligência" loading="lazy"><span><b>Central</b>Ferramentas</span></li>
+                <li><img src="/img/capas/certificado.webp" width="672" height="1016" alt="Capa da Certificação" loading="lazy"><span><b>Cinturão</b>Certificação</span></li>
+              </ul>
+              <p class="legenda">Telas da plataforma do programa · versão em desenvolvimento</p>
+            </div>
+          </article>
+
+          <!-- 8b · central de inteligência -->
+          <article class="painel painel--central">
+            <div class="painel__texto">
+              <p class="rotulo">Central de Inteligência</p>
+              <h2 class="titulo-m"><span class="ouro"><span data-contar="66">66</span> ferramentas.</span><br>O acompanhamento entre um encontro e outro.</h2>
+              <p class="texto">É entre os encontros que a rotina se perde. A Central organiza o que o líder usa em cada Round, com fluxo definido: não é banco de conteúdo, é ferramenta.</p>
+              <dl class="numeros">
+                <div><dt data-contar="21">21</dt><dd>com inteligência artificial</dd></div>
+                <div><dt data-contar="4">4</dt><dd>humanas por desenho</dd></div>
+                <div><dt>24/7</dt><dd>IA Coach na rotina</dd></div>
+              </dl>
+              <p class="tipos">Assistentes · Frameworks · Protocolos · Entregáveis · Diagnósticos · Simuladores</p>
+            </div>
+            <div class="painel__visual">
+              <div class="chat" data-chat>
+                <div class="chat__cab"><img src="/marca/simbolo-ouro.svg" alt=""><b>Simulador de conversas críticas</b><span>Round 4</span></div>
+                <div class="chat__corpo">
+                  <div class="balao balao--lider"><small>Você</small>Preciso te dizer que a vaga de coordenação ficou com outra pessoa.</div>
+                  <div class="balao balao--ia"><small>Liderado · simulação</small>Mas eu bati a meta nos três últimos trimestres. O que faltou?</div>
+                  <div class="balao balao--lider"><small>Você</small>Faltou o time te ver puxando os outros, não só os seus números. Quero construir isso com você.</div>
+                  <div class="devolutiva"><small>Devolutiva</small>Você foi direto e abriu um próximo passo. Antes de responder, reconheça o resultado que ele trouxe.</div>
+                  <div class="digitando" aria-hidden="true"><i></i><i></i><i></i></div>
+                </div>
+                <button class="chat__repetir" type="button" data-chat-repetir>Repetir simulação</button>
+              </div>
+              <p class="selo">Ilustração · conversa simulada</p>
+            </div>
+          </article>
+
+          <!-- 8c · o primeiro resultado -->
+          <article class="painel painel--resultado">
+            <div class="painel__texto">
+              <p class="rotulo">O primeiro resultado</p>
+              <h2 class="titulo-m">Em 30 dias, a primeira <span class="ouro">evidência.</span></h2>
+              <p class="texto">Cada líder entrega o Relatório 30 Dias: uma página com o KPI único, o baseline real de sistema, a intervenção 80/20 aplicada e a variação documentada. Apresentado à turma, com cópia para o RH.</p>
+              <div class="final">
+                <p class="rotulo">Ao final do programa</p>
+                <p class="final__txt">Cada líder apresenta ao painel executivo da própria empresa um resultado medido: KPI com baseline e variação por dado de sistema, projeto aplicado entregue e decisão registrada em ata.</p>
+                <p class="final__ouro">Não é percepção de evolução. É evidência.</p>
+              </div>
+            </div>
+            <div class="painel__visual">
+              <div class="papel" data-relatorio>
+                <div class="papel__topo"><b>Relatório 30 Dias</b><span>Round 1 · Posição</span></div>
+                <div class="campo"><i>KPI único</i><span>Tempo de resposta ao primeiro contato comercial</span></div>
+                <div class="kpi">
+                  <div><i>Dia 0</i><b>4h15</b></div>
+                  <div><i>Dia 30</i><b data-kpi-30>45 min</b></div>
+                  <div class="kpi__var"><i>Variação</i><b data-kpi-var>−82%</b></div>
+                </div>
+                <svg class="papel__grafico" viewBox="0 0 300 80" aria-hidden="true">
+                  <line x1="0" y1="78" x2="300" y2="78" class="eixo"/>
+                  <path d="M0,10 C60,12 90,20 130,34 S220,62 300,68" class="curva"/>
+                  <circle cx="0" cy="10" r="4" class="ponto"/><circle cx="300" cy="68" r="5" class="ponto ponto--fim"/>
+                </svg>
+                <div class="campo"><i>Intervenção 80/20</i><span>Distribuição automática das oportunidades entre os vendedores, com alerta no momento da entrada.</span></div>
+                <div class="campo"><i>Lição aprendida</i><span>O gargalo não era o time, era o caminho que a oportunidade fazia até ele.</span></div>
+                <div class="campo"><i>Próximos 60 dias</i><span>Taxa de conversão da primeira reunião.</span></div>
+                <div class="assina"><span>Líder</span><span>Superior direto</span></div>
+              </div>
+              <p class="selo">Exemplo ilustrativo</p>
+            </div>
+          </article>
+        </div>
+        <div class="trilha__guia" aria-hidden="true"><span></span><span></span><span></span></div>
+      </div>
+    </section>
+
+    <!-- ═══ 09 · FORMATOS E INVESTIMENTO ═══════════════════════════════════ -->
+    <section class="secao investimento" id="investimento" data-nome="Formatos e investimento" aria-labelledby="inv-titulo">
+      <div class="ano" aria-hidden="true">20<br>26</div>
+      <div class="envelope">
+        <header class="inv__cab">
+          <div>
+            <p class="rotulo" data-revelar>Formatos e investimento</p>
+            <h2 id="inv-titulo" class="titulo-m" data-dividir>Escolha a jornada que faz sentido para a sua empresa.</h2>
+          </div>
+          <p class="texto" data-revelar>Os dois formatos recebem a Central de Inteligência inteira. <strong>A diferença é acesso, nunca ferramenta.</strong> O Premium acrescenta o mês com a alta liderança: é onde o sponsor assina os OKRs e passa a ter pele no jogo.</p>
+        </header>
+
+        <div class="formato" role="radiogroup" aria-label="Formato da formação" data-formato data-revelar>
+          <button type="button" role="radio" aria-checked="false" data-f="seis"><b>6 meses</b><span>Encarada + Rounds 1 a 6</span></button>
+          <button type="button" role="radio" aria-checked="true" data-f="oito"><b>8 meses · Premium</b><span>Encarada + Rounds 1 a 8</span></button>
+          <span class="formato__pista" aria-hidden="true"></span>
+        </div>
+
+        <div class="inv__grade">
+          <div class="inv__jornada" data-revelar>
+            <p class="rotulo">A jornada</p>
+            <ol class="jornada" data-jornada></ol>
+            <p class="nota">Em cada mês, 6 a 7 horas de encontros por líder.</p>
+          </div>
+
+          <div class="inv__tabela" data-revelar>
+            <p class="rotulo">O que muda</p>
+            <dl class="specs" data-specs>
+              <div><dt>Duração</dt><dd data-l="duracao"></dd></div>
+              <div><dt>Rounds</dt><dd data-l="rounds"></dd></div>
+              <div><dt>Mês com a alta liderança</dt><dd data-l="alta"></dd></div>
+              <div><dt>Presenciais com Rodrigo</dt><dd data-l="presenciais"></dd></div>
+              <div><dt>Encontros táticos ao vivo</dt><dd data-l="taticos"></dd></div>
+              <div><dt>Masterclasses</dt><dd data-l="masterclasses"></dd></div>
+              <div><dt>Trilhas na plataforma</dt><dd data-l="trilhas"></dd></div>
+              <div><dt>Horas de encontro por líder</dt><dd data-l="horas"></dd></div>
+            </dl>
+          </div>
+
+          <div class="preco" data-preco data-revelar>
+            <span class="preco__tag" data-preco-tag>O formato mais longo custa menos por mês</span>
+            <p class="preco__nome" data-preco-nome>Formação · 8 meses · Premium</p>
+            <p class="preco__valor"><small>R$</small><span data-preco-valor>48.980</span></p>
+            <p class="preco__por">por líder, pelo programa</p>
+            <div class="preco__linha"><span>Equivale, por líder, a</span><b class="ouro" data-preco-mes>R$ 6.122,50 por mês</b></div>
+            <div class="lideres">
+              <label for="lideres">Líderes na turma</label>
+              <div class="lideres__ctrl">
+                <button type="button" data-lideres="-1" aria-label="Menos um líder">−</button>
+                <input id="lideres" type="number" inputmode="numeric" min="12" max="200" value="12" data-lideres-input>
+                <button type="button" data-lideres="1" aria-label="Mais um líder">+</button>
+              </div>
+            </div>
+            <div class="preco__linha preco__linha--total"><span>Turma de <b data-turma-n>12</b> líderes</span><b data-turma-total>R$ 587.760</b></div>
+            <p class="preco__nota" data-lideres-aviso>Turma fechada, a partir de 12 líderes.</p>
+          </div>
+        </div>
+
+        <div class="inclui" data-revelar>
+          <div class="inclui__cab">
+            <div class="inclui__kit"><img src="/img/fotos/kit-caderno-m.webp" srcset="/img/fotos/kit-caderno-m.webp 413w, /img/fotos/kit-caderno.webp 710w" width="413" height="640" sizes="90px" alt="Caderno do participante com a marca Minotauro Champion by Design" loading="lazy"></div>
+            <div>
+              <p class="rotulo">Nos dois formatos</p>
+              <h3 class="titulo-s">O que a sua empresa recebe.</h3>
+            </div>
+          </div>
+          <ul class="entregas">
+            <li><img src="/marca/icone-escudo-ouro.svg" alt=""><b>Diagnóstico individual</b><span>Avaliação de cada líder, com devolutiva ao RH e ao C-level.</span></li>
+            <li><img src="/marca/icone-escudo-ouro.svg" alt=""><b>Relatório mensal ao RH</b><span>Acesso, progresso por líder, marcos entregues e pontos de atenção, até o 5º dia útil.</span></li>
+            <li><img src="/marca/icone-escudo-ouro.svg" alt=""><b>Masterclasses com especialistas</b><span>Ao vivo, conectadas aos temas de cada Round.</span></li>
+            <li><img src="/marca/icone-escudo-ouro.svg" alt=""><b>Trilhas e microlearnings</b><span>Conteúdo mensal e reforço semanal, na plataforma.</span></li>
+            <li><img src="/marca/icone-escudo-ouro.svg" alt=""><b>Kit do participante</b><span>Manual do Octógono, Cards do Método e Planner de Alta Performance.</span></li>
+            <li><img src="/marca/icone-trofeu-ouro.svg" alt=""><b>Certificação</b><span>Entregue pelo Rodrigo na cerimônia Levantando o Cinturão.</span></li>
+            <li><img src="/marca/icone-louro-ouro.svg" alt=""><b>Comunidade MCD</b><span>A rede de líderes formados pelo programa, com acesso vitalício.</span></li>
+            <li><img src="/marca/icone-escudo-ouro.svg" alt=""><b>Um mês a mais de acesso</b><span>Central de Inteligência e trilhas disponíveis após o encerramento.</span></li>
+          </ul>
+          <p class="nota">Entregável previsto e não executado por nossa parte dá direito a sessão de reposição sem custo. Valores por líder, para turma fechada a partir de 12 participantes. O deslocamento dos líderes até os encontros presenciais e o da equipe do programa correm por conta da empresa contratante.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ 10 · LEGADO E PRÓXIMO PASSO ════════════════════════════════════ -->
+    <section class="secao final-cta" id="proximo-passo" data-nome="Próximo passo" aria-labelledby="cta-titulo">
+      <figure class="cta__foto" data-parallax="-10">
+        <picture>
+          <source media="(max-width: 47.99rem)" srcset="/img/fotos/rodrigo-pb-m.webp">
+          <img src="/img/fotos/rodrigo-pb.webp" width="1533" height="1800" alt="Rodrigo Minotauro, retrato em preto e branco" loading="lazy">
+        </picture>
+      </figure>
+      <div class="ano" aria-hidden="true">20<br>26</div>
+
+      <div class="envelope cta__grade">
+        <div class="cta__texto">
+          <p class="rotulo" data-revelar>Próximo passo</p>
+          <h2 id="cta-titulo" class="titulo-l" data-dividir>Você conhece as conquistas do Minotauro. <span class="ouro">Agora, vamos trabalhar pelas suas.</span></h2>
+          <p class="texto" data-revelar>Pense naquele profissional em quem você acredita e que ainda precisa de preparo para assumir uma responsabilidade maior. O crescimento dele pode abrir possibilidades para o negócio e mudar a vida da família que está por trás daquela pessoa.</p>
+          <a class="botao" href="mailto:contato@rodrigominotauro.com.br?subject=Primeira%20turma%20%C2%B7%20Champion%20by%20Design" data-cta data-revelar>
+            <span>Vamos definir a primeira turma?</span><i aria-hidden="true">→</i>
+          </a>
+        </div>
+
+        <aside class="legado" data-revelar aria-labelledby="legado-titulo">
+          <div class="legado__cab">
+            <img src="/marca/icone-louro-ouro.svg" alt="">
+            <div>
+              <p class="rotulo">Legado</p>
+              <h3 id="legado-titulo" class="titulo-s">Compartilhar o que aprendemos.</h3>
+            </div>
+          </div>
+          <p class="texto">Rodrigo investiu parte do que conquistou na formação de outros atletas, para que mais pessoas pudessem viver do esporte. Esse compromisso também está aqui: para que o potencial de ninguém fique parado por falta de direção.</p>
+          <dl class="legado__nums">
+            <div><dt data-contar="4">4</dt><dd>Títulos individuais</dd></div>
+            <div><dt data-contar="16">16</dt><dd>Títulos da academia</dd></div>
+            <div><dt data-contar="28">28</dt><dd>Casas doadas</dd></div>
+          </dl>
+          <div class="legado__dez">
+            <p class="legado__pct"><span data-contar="10">10</span>% do faturamento</p>
+            <p>para projetos sociais, destinados ao FFL e ao Instituto Irmãos Nogueira. Ao contratar o programa, a sua empresa também contribui com essas iniciativas.</p>
+          </div>
+        </aside>
+      </div>
+
+      <footer class="rodape">
+        <img src="/marca/logotipo-off.svg" alt="Minotauro Champion by Design" width="220" height="42">
+        <span>Proposta comercial · Outubro de 2026</span>
+        <span>Alta performance exige metodologia.</span>
+      </footer>
+    </section>
+  </main>
+</body>
+</html>

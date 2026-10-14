@@ -1,0 +1,230 @@
+/* Cópia de potenzia-digital/minotauro-design-system @ b429945 (02-design-tokens/tokens.css).
+   Não editar aqui: corrigir a fonte (JSON) no design system e copiar de novo. */
+:root {
+  /* color */
+  --mcd-color-brand-ink: #2D2B2B;
+  --mcd-color-brand-offwhite: #EDECE6;
+  --mcd-color-brand-green: #154834;
+  --mcd-color-brand-gold: #E1AF58;
+  --mcd-color-brand-gray: #767676;
+  --mcd-color-surface-primary: #2D2B2B;
+  --mcd-color-surface-raised: #383636;
+  --mcd-color-surface-sunken: #232121;
+  --mcd-color-surface-inverse: #EDECE6;
+  --mcd-color-surface-inverse-raised: #F5F4F0;
+  --mcd-color-surface-inverse-sunken: #E2E0D8;
+  --mcd-color-surface-accent-green: #154834;
+  --mcd-color-surface-accent-gold: #E1AF58;
+  --mcd-color-text-primary: #EDECE6;
+  --mcd-color-text-secondary: #C9C7BE;
+  --mcd-color-text-muted: #A8A5A0;
+  --mcd-color-text-accent: #E1AF58;
+  --mcd-color-text-on-inverse: #2D2B2B;
+  --mcd-color-text-on-inverse-secondary: #5C5A5A;
+  --mcd-color-text-on-inverse-accent: #154834;
+  --mcd-color-text-on-gold: #2D2B2B;
+  --mcd-color-text-on-green: #EDECE6;
+  --mcd-color-border-subtle: #3A3838;
+  --mcd-color-border-default: #4A4747;
+  --mcd-color-border-strong: #767676;
+  --mcd-color-border-inverse-subtle: #DEDCD3;
+  --mcd-color-border-inverse-default: #C9C7BE;
+  --mcd-color-border-inverse-strong: #8A8783;
+  --mcd-color-border-focus: #E1AF58;
+  --mcd-color-action-primary-bg: #E1AF58;
+  --mcd-color-action-primary-text: #2D2B2B;
+  --mcd-color-action-primary-bg-hover: #CE9D48;
+  --mcd-color-action-primary-bg-active: #B98A3C;
+  --mcd-color-action-secondary-bg: transparent;
+  --mcd-color-action-secondary-text: #EDECE6;
+  --mcd-color-action-secondary-border: #4A4747;
+  --mcd-color-action-disabled-bg: #4A4747;
+  --mcd-color-action-disabled-text: #BFBCB6;
+  --mcd-color-feedback-success: #154834;
+  --mcd-color-feedback-success-on-dark: #66B899;
+  --mcd-color-feedback-warning: #7A5C16;
+  --mcd-color-feedback-warning-on-dark: #E1AF58;
+  --mcd-color-feedback-danger: #7A3B22; /* PROVISÓRIO — ver pendência P1.1 */
+  --mcd-color-feedback-danger-on-dark: #D2996F; /* PROVISÓRIO — ver pendência P1.1 */
+  --mcd-color-feedback-info: #767676;
+  --mcd-color-overlay-scrim: rgba(45, 43, 43, 0.72);
+  --mcd-color-overlay-photo-veil: linear-gradient(90deg, rgba(45,43,43,0.92) 0%, rgba(45,43,43,0.55) 55%, rgba(45,43,43,0) 100%);
+
+  /* deprecated — aliases mantidos apenas para reconhecimento de material legado. NÃO USAR. */
+  --mcd-deprecated-lp-black: #0A0A0A; /* depreciado → color.brand.ink */
+  --mcd-deprecated-lp-gold: #C9A84C; /* depreciado → color.brand.gold */
+  --mcd-deprecated-lp-green-dark: #1A3328; /* depreciado → color.brand.green */
+  --mcd-deprecated-lp-cream: #F7F4EE; /* depreciado → color.brand.offwhite */
+  --mcd-deprecated-lp-red: #C0392B; /* depreciado → REMOVER — vermelho proibido pelo cliente */
+
+  /* fontFamily */
+  --mcd-fontFamily-display: "Gotham", "Montserrat", "Helvetica Neue", system-ui, sans-serif;
+  --mcd-fontFamily-body: "Gotham", "Montserrat", "Helvetica Neue", system-ui, sans-serif;
+  --mcd-fontFamily-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+
+  /* fontWeight */
+  --mcd-fontWeight-thin: 100;
+  --mcd-fontWeight-light: 300;
+  --mcd-fontWeight-book: 400;
+  --mcd-fontWeight-medium: 500;
+  --mcd-fontWeight-bold: 700;
+  --mcd-fontWeight-black: 900;
+
+  /* fontSize */
+  --mcd-fontSize-3xs: 0.6875rem;
+  --mcd-fontSize-2xs: 0.75rem;
+  --mcd-fontSize-xs: 0.8125rem;
+  --mcd-fontSize-sm: 0.875rem;
+  --mcd-fontSize-md: 1rem;
+  --mcd-fontSize-lg: 1.125rem;
+  --mcd-fontSize-xl: 1.375rem;
+  --mcd-fontSize-2xl: 1.75rem;
+  --mcd-fontSize-3xl: 2.25rem;
+  --mcd-fontSize-4xl: 3rem;
+  --mcd-fontSize-5xl: 4rem;
+
+  /* fontSizeFluid */
+  --mcd-fontSizeFluid-display-1: clamp(2.25rem, 1.4rem + 3.6vw, 4rem);
+  --mcd-fontSizeFluid-display-2: clamp(1.75rem, 1.25rem + 2.1vw, 3rem);
+  --mcd-fontSizeFluid-display-3: clamp(1.375rem, 1.1rem + 1.1vw, 1.75rem);
+
+  /* lineHeight */
+  --mcd-lineHeight-display: 1.12;
+  --mcd-lineHeight-heading: 1.25;
+  --mcd-lineHeight-body: 1.65;
+  --mcd-lineHeight-tight: 1.4;
+  --mcd-lineHeight-flat: 1;
+
+  /* letterSpacing */
+  --mcd-letterSpacing-eyebrow: 0.28em;
+  --mcd-letterSpacing-label: 0.12em;
+  --mcd-letterSpacing-display: -0.02em;
+  --mcd-letterSpacing-normal: 0;
+
+  /* measure */
+  --mcd-measure-short: 48ch;
+  --mcd-measure-default: 68ch;
+  --mcd-measure-long: 76ch;
+
+  /* spacing */
+  --mcd-spacing-0: 0;
+  --mcd-spacing-1: 0.25rem;
+  --mcd-spacing-2: 0.5rem;
+  --mcd-spacing-3: 0.75rem;
+  --mcd-spacing-4: 1rem;
+  --mcd-spacing-5: 1.25rem;
+  --mcd-spacing-6: 1.5rem;
+  --mcd-spacing-8: 2rem;
+  --mcd-spacing-10: 2.5rem;
+  --mcd-spacing-12: 3rem;
+  --mcd-spacing-16: 4rem;
+  --mcd-spacing-20: 5rem;
+  --mcd-spacing-24: 6rem;
+  --mcd-spacing-32: 8rem;
+
+  /* sectionPadding */
+  --mcd-sectionPadding: clamp(3rem, 6vw, 6rem);
+
+  /* gutter */
+  --mcd-gutter: clamp(1.25rem, 4vw, 3rem);
+
+  /* size */
+  --mcd-size-control-sm: 2.25rem;
+  --mcd-size-control-md: 2.75rem;
+  --mcd-size-control-lg: 3.25rem;
+  --mcd-size-icon-sm: 1rem;
+  --mcd-size-icon-md: 1.25rem;
+  --mcd-size-icon-lg: 1.5rem;
+  --mcd-size-logo-min-web: 2rem;
+  --mcd-size-tap-min: 2.75rem;
+  --mcd-size-card-min: 14rem;
+
+  /* container */
+  --mcd-container-content: 45rem;
+  --mcd-container-default: 75rem;
+  --mcd-container-wide: 87.5rem;
+
+  /* sidebar */
+  --mcd-sidebar-expanded: 17.5rem;
+  --mcd-sidebar-collapsed: 4.5rem;
+
+  /* grid */
+  --mcd-grid-columns: 12;
+  --mcd-grid-gap: clamp(1rem, 2vw, 2rem);
+  --mcd-grid-columns-mobile: 4;
+
+  /* radius */
+  --mcd-radius-none: 0;
+  --mcd-radius-xs: 2px;
+  --mcd-radius-sm: 4px;
+  --mcd-radius-md: 8px;
+  --mcd-radius-lg: 16px;
+  --mcd-radius-pill: 999px;
+  --mcd-radius-circle: 50%;
+
+  /* borderWidth */
+  --mcd-borderWidth-none: 0;
+  --mcd-borderWidth-hairline: 1px;
+  --mcd-borderWidth-thick: 2px;
+  --mcd-borderWidth-accent: 3px;
+
+  /* borderStyle */
+  --mcd-borderStyle-solid: solid;
+  --mcd-borderStyle-dashed: dashed;
+
+  /* focusRing */
+  --mcd-focusRing-width: 2px;
+  --mcd-focusRing-offset: 2px;
+  --mcd-focusRing-style: solid;
+  --mcd-focusRing-color: #E1AF58;
+
+  /* divider */
+  --mcd-divider: 1px solid #3A3838;
+
+  /* shadow */
+  --mcd-shadow-none: none;
+  --mcd-shadow-raised: 0 1px 2px rgba(20, 19, 19, 0.16);
+  --mcd-shadow-overlay: 0 12px 32px rgba(20, 19, 19, 0.28);
+  --mcd-shadow-media: 0 16px 48px rgba(20, 19, 19, 0.35);
+
+  /* breakpoint */
+  --mcd-breakpoint-sm: 30rem;
+  --mcd-breakpoint-md: 48rem;
+  --mcd-breakpoint-lg: 64rem;
+  --mcd-breakpoint-xl: 80rem;
+  --mcd-breakpoint-2xl: 96rem;
+
+  /* duration */
+  --mcd-duration-instant: 80ms;
+  --mcd-duration-fast: 140ms;
+  --mcd-duration-base: 220ms;
+  --mcd-duration-slow: 320ms;
+  --mcd-duration-reveal: 480ms;
+
+  /* easing */
+  --mcd-easing-standard: cubic-bezier(0.2, 0, 0, 1);
+  --mcd-easing-entrance: cubic-bezier(0, 0, 0.2, 1);
+  --mcd-easing-exit: cubic-bezier(0.4, 0, 1, 1);
+  --mcd-easing-linear: linear;
+
+  /* distance */
+  --mcd-distance-nudge: 4px;
+  --mcd-distance-reveal: 16px;
+  --mcd-distance-panel: 100%;
+
+  /* reducedMotion */
+  --mcd-reducedMotion-duration: 1ms;
+
+  /* atalhos semânticos de composição */
+  --mcd-focus-ring: var(--mcd-focusRing-width) var(--mcd-focusRing-style) var(--mcd-focusRing-color);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --mcd-duration-instant: 1ms;
+    --mcd-duration-fast: 1ms;
+    --mcd-duration-base: 1ms;
+    --mcd-duration-slow: 1ms;
+    --mcd-duration-reveal: 1ms;
+  }
+}

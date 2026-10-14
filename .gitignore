@@ -1,0 +1,5 @@
+node_modules/
+dist/
+.DS_Store
+# clone do repo do cliente (transcrições e dados internos): nunca versionar aqui
+artefatos/
