@@ -340,7 +340,8 @@ export function criarOctogono({ canvas, rotulos, aoClicar, movimentoReduzido = f
     camera.fov = retrato ? 46 : 30;
     // empurra o ringue para longe do texto: para a direita no desktop, para cima no celular
     // mesma regra do CSS: em paisagem o texto fica à esquerda; em pé, embaixo
-    if (!retrato) camera.setViewOffset(largura, altura, -largura * 0.17, 0, largura, altura);
+    // em telas largas o deslocamento para; o ringue fica perto do texto, dentro do palco centralizado
+    if (!retrato) camera.setViewOffset(largura, altura, -Math.min(largura * 0.17, 250), 0, largura, altura);
     else camera.setViewOffset(largura, altura, 0, altura * 0.16, largura, altura);
     camera.updateProjectionMatrix();
   }

@@ -73,6 +73,18 @@ export const JORNADA = [
   { id: 'bonus', round: 'Bônus', marco: 'Acesso à Central, com autonomia.', bonus: true },
 ];
 
+/** O que a empresa recebe, nos dois formatos. Entra, item a item, no fichário da seção 09. */
+export const ENTREGAS = [
+  { icone: 'escudo', nome: 'Diagnóstico individual', desc: 'Cada líder avaliado, com devolutiva ao RH e ao C-level.' },
+  { icone: 'escudo', nome: 'Relatório mensal ao RH', desc: 'Progresso, marcos e pontos de atenção, até o 5º dia útil.' },
+  { icone: 'escudo', nome: 'Masterclasses', desc: 'Ao vivo, com especialistas, nos temas de cada Round.' },
+  { icone: 'escudo', nome: 'Trilhas e microlearnings', desc: 'Conteúdo mensal e reforço semanal na plataforma.' },
+  { icone: 'escudo', nome: 'Kit do participante', desc: 'Manual do Octógono, Cards do Método e Planner.' },
+  { icone: 'trofeu', nome: 'Certificação', desc: 'Entregue pelo Rodrigo em Levantando o Cinturão.' },
+  { icone: 'louro', nome: 'Comunidade MCD', desc: 'A rede de líderes formados, com acesso vitalício.' },
+  { icone: 'escudo', nome: 'Um mês a mais', desc: 'Central e trilhas abertas após o encerramento.' },
+];
+
 const BRL = new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL', minimumFractionDigits: 0, maximumFractionDigits: 2 });
 const NUM = new Intl.NumberFormat('pt-BR', { maximumFractionDigits: 2 });
 

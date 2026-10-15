@@ -28,6 +28,11 @@
   --ink-rgb: 45 43 43;
 
   --gutter: clamp(1.25rem, 5vw, 6rem);
+  /* palco centralizado: em telas largas (full HD em diante) texto e visual não se afastam além de --cena-max.
+     --margem é a borda esquerda do palco; --margem-d a direita, com folga para o trilho do índice. */
+  --cena-max: 84rem;
+  --margem: max(var(--gutter), calc((100vw - var(--cena-max)) / 2));
+  --margem-d: max(calc(var(--gutter) + 3rem), calc((100vw - var(--cena-max)) / 2));
   --topo-h: 4rem;
   --ease: var(--mcd-easing-standard);
   --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
@@ -57,6 +62,7 @@ img { height: auto; }
 button { font: inherit; color: inherit; background: none; border: 0; cursor: pointer; }
 input { font: inherit; color: inherit; }
 a { color: inherit; }
+p, li, dd, blockquote { text-wrap: pretty; }
 ul, ol { list-style: none; padding: 0; }
 strong, b { font-weight: 700; }
 :focus-visible { outline: var(--mcd-focus-ring); outline-offset: var(--mcd-focusRing-offset); border-radius: 2px; }
@@ -71,9 +77,9 @@ strong, b { font-weight: 700; }
 
 /* ── tipografia ──────────────────────────────────────────────────────────── */
 .rotulo {
-  font-size: var(--mcd-fontSize-2xs); font-weight: 500;
-  letter-spacing: 0.42em; text-transform: uppercase; color: var(--sec);
-  margin-bottom: 1.4em;
+  font-size: var(--mcd-fontSize-2xs); font-weight: 600;
+  letter-spacing: var(--mcd-letterSpacing-eyebrow); text-transform: uppercase; color: var(--mudo);
+  margin-bottom: 1.1rem;
 }
 .titulo-xl, .titulo-l, .titulo-m, .titulo-s, h1 {
   font-weight: 700; letter-spacing: -0.02em; line-height: 1.04; text-wrap: balance;
@@ -81,13 +87,13 @@ strong, b { font-weight: 700; }
 .titulo-l { font-size: clamp(2.1rem, 1.3rem + 3.6vw, 4.75rem); }
 .titulo-m { font-size: clamp(1.8rem, 1.2rem + 2.6vw, 3.6rem); line-height: 1.08; }
 .titulo-s { font-size: clamp(1.35rem, 1.1rem + 1vw, 2rem); line-height: 1.15; }
-.texto { color: var(--sec); max-width: 60ch; text-wrap: pretty; }
+.texto { color: var(--sec); max-width: 52ch; font-size: clamp(1rem, .96rem + .2vw, 1.125rem); line-height: 1.6; text-wrap: pretty; }
 .texto + .texto { margin-top: 1em; }
-:is(.titulo-l, .titulo-m, .titulo-s) + :is(.texto, .trajetoria) { margin-top: clamp(1.1rem, .8rem + 1vw, 1.8rem); }
+:is(.titulo-l, .titulo-m, .titulo-s) + :is(.texto, .trajetoria) { margin-top: clamp(1rem, .8rem + .8vw, 1.5rem); }
 .texto strong { color: var(--off); }
 .ouro { color: var(--ouro); }
-.faixa { width: 2.4rem; margin-bottom: 1.4rem; }
-.dica { margin-top: 1.6rem; font-size: var(--mcd-fontSize-sm); color: var(--mudo); letter-spacing: .02em; }
+.faixa { width: 2.2rem; margin-bottom: 1.25rem; }
+.dica { margin-top: 1.4rem; font-size: var(--mcd-fontSize-sm); color: var(--mudo); letter-spacing: .01em; }
 .dica span { color: var(--ouro); margin-right: .35em; }
 .nota { font-size: var(--mcd-fontSize-sm); color: var(--mudo); max-width: 80ch; }
 
@@ -102,7 +108,7 @@ strong, b { font-weight: 700; }
 .secao { position: relative; min-height: 100svh; isolation: isolate; }
 .envelope {
   position: relative; z-index: 2;
-  width: 100%; max-width: 100rem; margin-inline: auto;
+  width: 100%; max-width: calc(var(--cena-max) + 2 * var(--gutter)); margin-inline: auto;
   padding: calc(var(--topo-h) + 3rem) var(--gutter) 4.5rem;
   min-height: 100svh; display: flex; flex-direction: column; justify-content: center;
 }

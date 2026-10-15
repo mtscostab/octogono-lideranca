@@ -16,6 +16,8 @@ npm run preview   # serve o dist/ em http://localhost:4173
 
 Toda a copy é da v4 (`artefatos/.../proposta-comercial-champion/v4/index.html`). Nada foi escrito do zero:
 quando um texto de uma tela da v4 virou interação, ele foi só redistribuído.
+Em 14/10/2026 a copy foi **enxugada** (frases encurtadas, parágrafos fundidos), sem alterar números, preços
+nem afirmações: o texto integral continua na v4.
 
 | # | Seção | Telas da v4 | Interação |
 |---|---|---|---|
@@ -27,7 +29,7 @@ quando um texto de uma tela da v4 virou interação, ele foi só redistribuído.
 | 06 | O método | 08 + marcos da 15 | **Octógono 3D** (ringue de 8 lados): o scroll gira o ringue até cada vértice; navegação por vértice |
 | 07 | Como funciona | 09, 16 | Alternador "No ringue / Na empresa"; Como medimos |
 | 08 | Plataforma e evidência | 10, 11, 12, 14 | Trilha horizontal (desktop): plataforma, simulador de conversa que se digita, Relatório 30 Dias animado |
-| 09 | Formatos e investimento | 13, 15, 17, 18 | Seletor 6 × 8 meses que reescreve jornada, tabela e preço; contador de líderes (mínimo 12) |
+| 09 | Formatos e investimento | 13, 15, 17, 18 | Cena presa ao scroll em 5 capítulos: formato (octógono 3D), jornada mês a mês acendendo os lados, o que muda, calculadora da turma com pedido por e-mail, e a pasta 3D recebendo as 8 entregas |
 | 10 | Próximo passo | 19, 20 | Legado (10% para projetos sociais) e CTA |
 
 Preços: os de 08/10/2026 (Ricardo), iguais à v4. A plataforma isolada **não** entra aqui: a decisão de
@@ -65,8 +67,8 @@ Só fotos reais que já estavam em `artefatos/`. Nada gerado por IA.
 - **`--palco` (#141313)** é o único valor de cor fora dos tokens: o ink rebaixado, o mesmo preto para o
   qual o script levanta as fotos low-key (a v4 em PDF usa o mesmo recurso em `.slide.preto`).
 - **Montserrat**, auto-hospedada (`@fontsource`). A Gotham não tem licença web confirmada.
-- Zero vermelho, zero exclamação, zero ®. Ouro nunca sobre offwhite (o Relatório 30 Dias, em papel
-  claro, usa verde).
+- Zero vermelho, zero exclamação, zero ®. **Sem verde** (pedido de 14/10/2026: o acento é só o ouro da marca).
+  Ouro nunca sobre offwhite: no Relatório 30 Dias, em papel claro, o destaque é ink com número em ouro.
 
 ## 🚩 Antes de ir a cliente
 
